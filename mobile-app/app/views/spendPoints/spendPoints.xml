@@ -1,0 +1,25 @@
+<Page loaded="pageLoaded">
+  <ActionBar id="actionBar" title="Spend Points" class="action-bar" ></ActionBar> 
+  <!-- Your UI components go here -->
+
+<!--<StackLayout orientation="vertical" verticalAlignment="center"  >-->
+<StackLayout orientation="vertical" verticalAlignment="center"  >
+
+<!-- Here, add fields for confirmed vs unconfirmed balance -->
+<Label style="color:white;" class="h3 mh5 center" id="currentBalanceLabel" editable="false" text="Current Balance : " textWrap="true" ></Label>
+
+
+<Label  style="color:white;" class="h1 mh10 center" editable="false" id="text1" text="Reward Points Address" textWrap="true" ></Label>
+ <Image id="img" width="200" height="200" stretch="fill" horizontalAlignment="center" style="margin-bottom:25px;" />
+<Label  style="color:white;" id="myReceiveAddress" class="mh10 center h4 mv5"  secure="false" text="" textWrap="true" />
+
+<!-- This button will be removed -->
+<!--
+<Button class="btn btn-outline btn-rounded-lg" id="receiveBtn"  text="Check Recent Transactions " tap="receiveClicked" />
+-->
+
+<Button  id="backBtn" class="mh5" text="Back" tap="backClicked"/>
+
+</StackLayout>
+
+</Page>

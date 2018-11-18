@@ -1,0 +1,28 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.test1",
+    "tns-android": {
+      "version": "5.0.0"
+    },
+    "tns-ios": {
+      "version": "5.0.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "nativescript-barcodescanner": "^2.7.9",
+    "nativescript-clipboard": "^1.1.7",
+    "nativescript-exit": "^1.0.1",
+    "nativescript-insomnia": "^1.2.2",
+    "nativescript-screen-orientation": "^2.0.0",
+    "nativescript-theme-core": "~1.0.4",
+    "nativescript-zxing": "^1.5.5",
+    "tns-core-modules": "~5.0.2"
+  },
+  "devDependencies": {
+    "nativescript-dev-webpack": "~0.18.0"
+  },
+  "readme": "NativeScript Application"
+}

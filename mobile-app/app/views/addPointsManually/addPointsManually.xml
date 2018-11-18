@@ -1,0 +1,19 @@
+<!--
+The markup in NativeScript apps contains a series of user interface components, each
+of which NativeScript renders with a platform-specific iOS or Android native control.
+You can find a full list of user interface components you can use in your app at
+https://docs.nativescript.org/ui/components.
+-->
+<Page loaded="pageLoaded">
+    <!--
+    The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
+    http://docs.nativescript.org/ui/action-bar
+    -->
+      <ActionBar id="actionBar" title="Point Wallet" class="action-bar" ></ActionBar> 
+    <StackLayout style="margin:5%;">
+        <Label text="Point Exchange" style="color:white;" class="h1 center mv5" textWrap="true"/>
+        <Button tap="scanQrCodeClicked" style="margin:5%;" text="Scan QR Code of Your Receipt"></Button>
+        <Button tap="addPointsManuallyClicked" style="margin:5%;" text="Add Information Manually"></Button>
+        <Button style="margin:5%;" id="back" text="Back" tap="backClicked"/>
+    </StackLayout>
+</Page>
